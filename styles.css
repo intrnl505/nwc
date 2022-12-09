@@ -1,0 +1,52 @@
+/* local css */
+
+body {
+    font-family: "Segoe UI"; /*by default*/
+    overflow-x: hidden;
+}
+
+#topnav {
+    border: solid 2px;
+    border-color: #023047;
+    background-color: #023047;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 128px;
+}
+
+aside {
+    position: absolute;
+    top: 140px;
+    border: solid 1px;
+    border-color: black;
+    width: 20%;
+    height: 70%;
+}
+
+/* global default */
+h1 {
+    font-size: 36px;
+}
+
+#wordList {
+    position: absolute;
+    top: 140px;
+    left: 22%;
+    border: solid 1px;
+    border-color: black;
+    width: 77%;
+    height: 100%;
+}
+
+.main-word {
+    border: solid 1px;
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+    margin-left: 3%;
+    text-indent: 10px;
+}
+
+/* border is used for layout planning. Not meant to be a part of the design . */
